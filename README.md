@@ -11,11 +11,11 @@ Use GitHub Actions to create a CD process that can deploy an application to Azur
 - Store the code in GitHub and make the repository Public. Code has been stored and made public
 
 Definition of Done: Requirement Checklist
-- App designed and necessary files committed into the repository
+- Sample App cloned and necessary files committed into the repository
 - .Yaml file created for use by actions. On commit deploys to Azure
 - Secrets created and Resource Groups made in Azure
 - App displays on https://dalleydevapp.azurewebsites.net/
-- Commits in GitHub directly link to the displayed app in Azure
+- Commits in GitHub deploy directly to Azure
 
 Resources and Docs used:
 Sample Python Flask app for deployment to Azure:        https://docs.microsoft.com/en-us/azure/app-service/quickstart-python
