@@ -64,7 +64,7 @@ jobs:
       
       - name: Login to Azure
         uses: azure/login@v1
-        with:
+        with: 
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_A977F1E9ED234361B8F6327ED6E31D51 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_3F808CBE8B044A3EB5D7EDC8A99B6813 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_3D75E13EC634449C87E4000AD9650B63 }}
@@ -72,7 +72,8 @@ jobs:
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
-        with:
+        
+        with: 
           app-name: 'DalleyDevApp'
           slot-name: 'Production'
           
