@@ -20,3 +20,6 @@ Definition of Done: Requirement Checklist
 Resources and Docs used:
 Sample Python Flask app for deployment to Azure:        https://docs.microsoft.com/en-us/azure/app-service/quickstart-python
 Use GitHub Actions to connect to Azure:  https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-portal%2Clinux
+Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+More GitHub Actions for Azure: https://github.com/Azure/actions
+More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
