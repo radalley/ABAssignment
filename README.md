@@ -1,10 +1,22 @@
-# Deploy a Python (Flask) web app to Azure App Service - Sample Application
+# Deployment of a Python (Flask) web app to Azure App Service - Sample Application for Anheuser-Busch
 
-This is the sample Flask application for the Azure Quickstart [Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python). For instructions on how to create the Azure resources and deploy the application to Azure, refer to the Quickstart article.
+This is the sample Python Flask application utilizing GitHubActions to deploy through Azure. Created for coding assessment for Anheuser-Busch Interview process 
 
-Sample applications are available for the other frameworks here:
+Below are the instructions for the assessment:
 
-* Django [https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart)
-* FastAPI [https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart)
+Use GitHub Actions to create a CD process that can deploy an application to Azure.
+- Use any language you desire. In this case, I chose Python with Flask
+- Deploy to any resource in Azure (static web app, app service, AKS, etc). In this case, I chose App Service
+- Use the Free subscription in Azure if you don’t have one already. Azure subscription set up for an account
+- Store the code in GitHub and make the repository Public. Code has been stored and made public
 
-If you need an Azure account, you can [create one for free](https://azure.microsoft.com/en-us/free/).
+Definition of Done: Requirement Checklist
+- App designed and necessary files committed into the repository
+- .Yaml file created for use by actions. On commit deploys to Azure
+- Secrets created and Resource Groups made in Azure
+- App displays on https://dalleydevapp.azurewebsites.net/
+- Commits in GitHub directly link to the displayed app in Azure
+
+Resources and Docs used:
+Sample Python Flask app for deployment to Azure:        https://docs.microsoft.com/en-us/azure/app-service/quickstart-python
+Use GitHub Actions to connect to Azure:  https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-portal%2Clinux
