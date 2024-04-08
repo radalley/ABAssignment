@@ -14,8 +14,8 @@ Definition of Done: Requirement Checklist
 - Sample App cloned and necessary files committed into the repository
 - .Yaml file created for use by actions. On commit deploys to Azure
 - Secrets created and Resource Groups made in Azure
-- App displays on https://dalleydevapp.azurewebsites.net/
 - Commits in GitHub deploy directly to Azure
+- App displays changes on https://dalleydevapp.azurewebsites.net/
 
 Resources and Docs used:
 Sample Python Flask app for deployment to Azure:        https://docs.microsoft.com/en-us/azure/app-service/quickstart-python
